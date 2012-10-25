@@ -1,6 +1,7 @@
 json-transformer
 ================
 
+![Build Status](https://travis-ci.org/dandean/json-transformer.png)
 
 Functions for transforming JSON string formatting
 -------------------------------------------------
