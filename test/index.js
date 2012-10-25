@@ -2,7 +2,7 @@
 var assert = require('assert');
 var transformers = require('../index');
 
-describe('Tubbs', function() {
+describe('json-transformer', function() {
   var snake_case_object = {
     property: "some value",
     another_property: "another value",
@@ -19,12 +19,12 @@ describe('Tubbs', function() {
 
   var stringifiedCamelCaseObject = JSON.stringify(camelCaseObject);
 
-  it('should convert an object with snake_case keys to camelCase', function() {
+  it('underscoreToCamel should convert an object with snake_case keys to camelCase', function() {
     var camelized = transformers.underscoreToCamel(stringified_snake_case_object);
     assert.equal(stringifiedCamelCaseObject, camelized);
   });
 
-  it('should convert an object with camelCase keys to snake_case', function() {
+  it('camelToUnderscore should convert an object with camelCase keys to snake_case', function() {
     var snaked = transformers.camelToUnderscore(stringifiedCamelCaseObject);
     assert.equal(stringified_snake_case_object, snaked);
   });
