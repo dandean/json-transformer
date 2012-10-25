@@ -1,0 +1,27 @@
+{
+  "name": "json-transformer",
+  "version": "0.0.0",
+  "description": "Functions for transforming JSON string formatting",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dandean/json-transformer.git"
+  },
+  "keywords": [
+    "json",
+    "camel",
+    "camelize",
+    "underscore",
+    "transform",
+    "serialize",
+    "deserialize"
+  ],
+  "devDependencies": {
+    "mocha": "1.6"
+  },
+  "author": "Dan Dean",
+  "license": "MIT"
+}
