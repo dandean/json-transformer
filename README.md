@@ -10,12 +10,12 @@ There are currently two functions in this module:
 
 **camelToUnderscore(json)** ⟶ String
 
-Takes `json`, a stringified Object, converts all camelCase strings to underscore_case.
+Takes `json`, a stringified Object, converts all camelCase keys to underscore_case.
 
 
 **underscoreToCamel(json)** ⟶ String
 
-Takes `json`, a stringified Object, converts all underscore_case strings to camelCase.
+Takes `json`, a stringified Object, converts all underscore_case keys to camelCase.
 
 
 License
