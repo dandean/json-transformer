@@ -20,7 +20,7 @@
     "deserialize"
   ],
   "devDependencies": {
-    "mocha": "1.6"
+    "mocha": "~3.2.0"
   },
   "author": "Dan Dean",
   "license": "MIT"
